@@ -1,0 +1,3 @@
+{
+  "osgi.http.whiteboard.servlet.pattern": "/ms"
+}

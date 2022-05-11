@@ -59,6 +59,12 @@
                             <artifactId>com.adobe.granite.hotdev.demo</artifactId>
                             <target>/apps/hotdev.demo.ui.apps-packages/application/install</target>
                         </embedded>
+                        <embedded>
+                            <groupId>com.adobe.granite</groupId>
+                            <artifactId>hotdev.demo.ui.apps.ui.config</artifactId>
+                            <type>zip</type>
+                            <target>/apps/hotdev.demo.ui.apps-packages/application/install</target>
+                        </embedded>
                     </embeddeds>
                 </configuration>
             </plugin>
@@ -160,6 +166,12 @@
     <!-- D E P E N D E N C I E S                                                -->
     <!-- ====================================================================== -->
     <dependencies>
+        <dependency>
+            <groupId>com.adobe.granite</groupId>
+            <artifactId>hotdev.demo.ui.apps.ui.config</artifactId>
+            <version>${project.version}</version>
+            <type>zip</type>
+        </dependency>
         <dependency>
             <groupId>com.adobe.granite</groupId>
             <artifactId>com.adobe.granite.hotdev.demo</artifactId>

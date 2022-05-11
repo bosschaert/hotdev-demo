@@ -15,7 +15,7 @@ import org.osgi.service.http.whiteboard.HttpWhiteboardConstants;
 import org.osgi.service.http.whiteboard.propertytypes.HttpWhiteboardContextSelect;
 import org.osgi.service.http.whiteboard.propertytypes.HttpWhiteboardServletPattern;
 
-@HttpWhiteboardServletPattern("/ms")
+@HttpWhiteboardServletPattern("/myservlet") // overridden via configuration
 @HttpWhiteboardContextSelect("(" + HttpWhiteboardConstants.HTTP_WHITEBOARD_CONTEXT_NAME +"=my-context)")
 @Component(service = Servlet.class, scope = ServiceScope.PROTOTYPE)
 public class MyServlet extends HttpServlet {
