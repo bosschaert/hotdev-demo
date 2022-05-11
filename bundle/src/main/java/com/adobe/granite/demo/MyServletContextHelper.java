@@ -8,7 +8,7 @@ import org.osgi.service.http.context.ServletContextHelper;
 import org.osgi.service.http.whiteboard.propertytypes.HttpWhiteboardContext;
 
 @Component(service = ServletContextHelper.class, scope = ServiceScope.BUNDLE)
-@HttpWhiteboardContext(name = "my-context", path = "/myapp")
+@HttpWhiteboardContext(name = "my-context", path = "/content/myapp")
 public class MyServletContextHelper extends ServletContextHelper {
     @Activate
     public MyServletContextHelper(BundleContext bc) {
