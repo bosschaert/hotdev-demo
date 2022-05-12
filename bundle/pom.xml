@@ -23,6 +23,7 @@
         <groupId>org.apache.felix</groupId>
         <artifactId>felix-parent</artifactId>
         <version>7</version>
+        <relativePath></relativePath>
     </parent>
 
     <groupId>com.adobe.granite</groupId>

@@ -20,7 +20,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.adobe.granite</groupId>
-    <artifactId>hotdev.demo.ui.app</artifactId>
+    <artifactId>hotdev.demo.ui.apps</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
     <name>HotDev Demo</name>
@@ -28,6 +28,7 @@
 
     <modules>
         <module>bundle</module>
+        <module>ui.apps.structure</module>
         <module>ui.config</module>
         <module>all</module>
     </modules>
