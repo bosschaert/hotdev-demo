@@ -13,7 +13,7 @@ To build, execute:
 
 Deploy the content package: `all/target/hotdev.demo.ui.apps.all-1.0.0-SNAPSHOT.zip`
 
-This deploys a bundle in AEM called `com.adobe.granite.hotdev.demo`, which registers a servlet that can be accessed via `http://host:port/content/myapp/ms`.
+This deploys a bundle in AEM called `com.adobe.granite.hotdev.demo`, which registers a servlet that can be accessed via `http://host:port/content/myapp/mysite.html`.
 
 Then, to control the location of the servlet, change the following configuration
 
