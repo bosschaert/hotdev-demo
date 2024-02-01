@@ -1,6 +1,6 @@
 {
   "name": "Java",
-  "image": "docker.io/rliechti137/trials:1",
+  "image": "docker.io/bosschaert/rde_dc:5",
   "postStartCommand": "/var/lib/envoy/init.sh",
   "customizations": {
       "vscode": {
